@@ -46,7 +46,7 @@ body {
 }
 
 .form-group input {
-  width: 100%;
+  width: 95%;
   padding: 0.5em;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -56,26 +56,26 @@ body {
   width: 100%;
   padding: 0.75em;
   border: none;
-  background: #0066cc;
+  background: #e0e0e0;
   color: white;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .btn-login:hover {
-  background: #444444;
+  background: #0066cc;
 }
 
-.forgot-password {
-  display: block;
-  text-align: right;
+.container-links{
+  display: flex;
+  justify-content: space-between;
   font-size: 0.8em;
   margin-top: 0.5em;
   color: #000000;
   text-decoration: none;
-}
 
-.forgot-password:hover {
+}
+.container-links:hover {
   text-decoration: underline;
 }
 
